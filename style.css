@@ -1,107 +1,112 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
-*
-{
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+* {
+    background-color: rgba(245, 245, 245,0.2);
     font-family: 'Montserrat', sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.container
-{
+
+.pname {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+}
+
+.container {
     align-items: center;
     text-align: center;
-    display: flex;
 }
-.container img
-{
+
+.container img {
     width: 400px;
-    float: left;
 }
-.sometext
-{
+
+.sometext {
     margin: 0 10%;
 }
+
 /* container2 */
-.container2
-{
+.container2 {
     font-size: 1.3rem;
     text-align: center;
 }
-.brakets
-{
+
+.brakets {
     width: 100px;
     margin: 0 100px;
 }
+
 /* container3 */
-.container3
-{
+.container3 {
     margin: 90px 0 0 20px;
 }
+
 /* todos los span */
-.html
-{
+.html {
     color: white;
     background-color: RGB(227, 79, 38);
     border-radius: 10px;
 }
-.css
-{
+
+.css {
     color: white;
     background-color: RGB(2, 119, 189);
     border-radius: 5px;
 }
-.Btstrap
-{
+
+.Btstrap {
     color: white;
-    background-color:RGB(121, 82, 179) ;
+    background-color: RGB(121, 82, 179);
     border-radius: 10px;
 }
-.htmlimage
-{
+
+.htmlimage {
     margin: 0 100px;
     width: 170px;
     height: 185px;
 }
-.cssimage
-{
+
+.cssimage {
     margin: 0 100px 0 0;
 }
-.imgcontainer
-{
+
+.imgcontainer {
     justify-content: space-around;
     margin-top: 20px;
 }
-.butstrapputo
-{
+
+.butstrapputo {
     padding: 0 0 20px;
 }
-.imgcontainer2 img
-{
+
+.imgcontainer2 img {
     margin: 10px 60px;
 }
+
 /* frameworks de java */
-.Reacttext
-{
+.Reacttext {
     color: white;
     background-color: RGB(0, 204, 255);
     border-radius: 10px;
 }
-.Vuetext
-{
+
+.Vuetext {
     color: white;
-    background-color:RGB(63, 185, 132) ;
+    background-color: RGB(63, 185, 132);
     border-radius: 10px;
     margin: 0px 10px;
 }
-.Angulartext
-{
+
+.Angulartext {
     color: white;
-    background-color:RGB(224, 46, 49);
+    background-color: RGB(224, 46, 49);
     border-radius: 10px;
 }
-.Nodetext
-{
+
+.Nodetext {
     background-color: RGB(139, 197, 0);
     border-radius: 10px;
     color: white;
